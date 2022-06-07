@@ -1,0 +1,9 @@
+Il package da utilizzare per interagire con il server è il package client e la corrispondente classe Client.
+
+I metodi da utilizzare per compiere operazioni sul database sono get, insert, update, remove.
+I metodi da utilizzare per scaricare, inviare o cancellare i file sono retrieveFile, uploadFile, deleteFile.
+I metodi da utilizzare per gestire l'autenticazione sono logout, login, register, changeEmail, sendEmailVerification, resetPassword, isEmailVerified, changePassword.
+
+Guardare la classe client per la documentazione.
+
+Il metodo close va chiamato alla fine dell'applicazione per disconnettere l'utente.
