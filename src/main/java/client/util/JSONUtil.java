@@ -46,7 +46,7 @@ public class JSONUtil {
                 res.append(toJSONString(element)).append(",");
             }
             if(res.charAt(res.length()-1) == ',')
-                res.replace(res.length() - 1, res.length() - 1, "]");
+                res.replace(res.length() - 1, res.length(), "]");
             else
                 res.append("]");
             return res.toString();
